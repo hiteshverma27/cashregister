@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark 10</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navigation container">
+        <div ><a class="nav-brand" href="https://thetrailblazer.in/">Hitesh Verma</a> </div>
+        <ul class="list-non-bullet nav-pills">
+          <li class="list-item-inline">
+            <a class="link" href="https://thetrailblazer.in/">Home</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link link-active" href="https://thetrailblazer.in/projects.html">Projects</a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="https://thetrailblazer.in/blogs.html">Blogs</a>
+          </li>
+        </ul>
+      </nav>
+    <div class="container">
+        <h1 style="padding: 2rem 2rem;">Cash register</h1>
+        <p>Enter the bill amount and then enter cash given</p>
+        <div class="inputs"><label for="bill-amount">Enter bill amount</label>
+        <input id="bill-amount" type="text"></div>
+        <div class="inputs"><label for="cash-given">Cash given</label>
+        <input id="cash-given" type="text"></div>
+        <button id="check-btn" >Check</button>
+        <p class="error-message"></p>
+        <table class="change-table">
+            <caption>Return change</caption>
+            <tr>
+                <th>No of notes</th>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+            </tr>
+            <tr>
+                <th>NOtes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+    <footer class="footer">
+        <div class="footer-header">Let's connect</div>
+        <ul class="social-links list-non-bullet">
+          <li class="list-item-inline">
+            <a
+              class="link"
+              href="https://www.linkedin.com/in/hitesh-verma-8727921b2/"
+            >
+              Linkedin
+            </a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="https://twitter.com/Trailblazer2711">
+              Twitter
+            </a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="https://github.com/hiteshverma27"> Github </a>
+          </li>
+        </ul>
+        <div style="padding: 1rem">Source code for this project (mark11) can be viewed on<a href="https://github.com/hiteshverma27/mark-11" class="navigation container nav-brand">GitHub.</a></div>
+        
+      </footer>
+    <script src="app.js"></script>
+</body>
+</html>
